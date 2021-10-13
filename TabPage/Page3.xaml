@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+ xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+ xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ mc:Ignorable="d"
+ x:Class="TabPage.Page3"
+ BackgroundColor="#D9FF7F"
+ Title="Entry">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Entry позволяет пользователю
+ вводить и редактировать одну строку
+ текста."
+ VerticalTextAlignment="Center"
+ HorizontalTextAlignment="Center"
+ WidthRequest="300" BackgroundColor="#552AA5"
+ HeightRequest="300" TextColor="Yellow"
+ FontAttributes="Bold"
+ FontSize="30"/>
+            <Entry Keyboard="Text"
+ BackgroundColor="Gold"
+ HorizontalTextAlignment="Center"
+ Placeholder="Enter password"
+ VerticalOptions="CenterAndExpand"
+ FontSize="40" FontAttributes="Bold"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
