@@ -5,7 +5,7 @@
  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
  mc:Ignorable="d"
  x:Class="TabPage.Page1"
- BackgroundColor="Blue"
+ BackgroundColor="#84C3FA"
  Title=" BoxView ">
     <ContentPage.Content>
         <StackLayout>
@@ -14,7 +14,7 @@
  шириной, высотой и цветом"
  VerticalTextAlignment="Center"
  HorizontalTextAlignment="Center"
- WidthRequest="300" BackgroundColor="AliceBlue"
+ WidthRequest="300" BackgroundColor="#84C3FA"
  HeightRequest="300" TextColor="DarkBlue"
  FontAttributes="Bold"
  FontSize="30"

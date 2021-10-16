@@ -5,7 +5,7 @@
  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
  mc:Ignorable="d"
  x:Class="TabPage.Page3"
- BackgroundColor="#D9FF7F"
+ BackgroundColor="#84C3FA"
  Title="Entry">
     <ContentPage.Content>
         <StackLayout>
@@ -14,17 +14,18 @@
  текста."
  VerticalTextAlignment="Center"
  HorizontalTextAlignment="Center"
- WidthRequest="300" BackgroundColor="#552AA5"
- HeightRequest="300" TextColor="Yellow"
+ WidthRequest="300" BackgroundColor="#84C3FA"
+ HeightRequest="300" TextColor="DarkBlue"
  FontAttributes="Bold"
  FontSize="30"/>
             <Entry Keyboard="Text"
- BackgroundColor="Gold"
+ BackgroundColor="DarkBlue"
  HorizontalTextAlignment="Center"
  Placeholder="Enter password"
+                   PlaceholderColor="White"
  VerticalOptions="CenterAndExpand"
  FontSize="40" FontAttributes="Bold"/>
 
         </StackLayout>
     </ContentPage.Content>
-</ContentPage>
+</ContentPage>
