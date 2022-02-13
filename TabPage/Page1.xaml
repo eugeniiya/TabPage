@@ -5,17 +5,18 @@
  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
  mc:Ignorable="d"
  x:Class="TabPage.Page1"
- BackgroundColor="#84C3FA"
+ BackgroundColor="Yellow"
  Title=" BoxView ">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="BoxView предназначен для
  отображения прямоугольника с заданной
- шириной, высотой и цветом"
+ шириной, высотой и цветом 
+                   Ханаока Инна"
  VerticalTextAlignment="Center"
  HorizontalTextAlignment="Center"
- WidthRequest="300" BackgroundColor="#84C3FA"
- HeightRequest="300" TextColor="DarkBlue"
+ WidthRequest="300" BackgroundColor="Yellow" 
+ HeightRequest="300" TextColor="Orange"
  FontAttributes="Bold"
  FontSize="30"
  />
@@ -24,7 +25,7 @@
  HeightRequest="250"
  VerticalOptions="CenterAndExpand"
  HorizontalOptions="Center"
- BackgroundColor="#006EFF"/>
+ BackgroundColor="Orange"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

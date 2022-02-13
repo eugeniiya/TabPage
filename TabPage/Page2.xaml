@@ -5,21 +5,22 @@
  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
  mc:Ignorable="d"
  x:Class="TabPage.Page2"
- BackgroundColor="#84C3FA"
+ BackgroundColor="Yellow"
  Title="Editor">
 <ContentPage.Content>
     <StackLayout>
         <Label Text="Editor позволяет пользователю
  вводить и редактировать несколько
- строк текста"
+ строк текста
+               Ханаока Инна"
  VerticalTextAlignment="Center"
  HorizontalTextAlignment="Center"
- WidthRequest="300" BackgroundColor="#84C3FA"
- HeightRequest="300" TextColor="DarkBlue"
+ WidthRequest="300" BackgroundColor="Yellow"
+ HeightRequest="300" TextColor="Orange"
  FontAttributes="Bold"
  FontSize="30"/>
         <Editor
- BackgroundColor="DarkBlue"
+ BackgroundColor="Red"
  VerticalOptions="CenterAndExpand"
  TextColor="White"
  Text="Текст может редактироваться пользователями"
